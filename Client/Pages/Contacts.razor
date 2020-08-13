@@ -1,0 +1,30 @@
+@page "/contacts"
+@using BlazingChat.Shared
+@inject HttpClient Http
+
+<div class="col-12">
+    @foreach(var contact in ContactList){
+        <a href="/chat/@contact.ContactId" class="list-group-item list-group-item-action flex-column align-items-start">
+            @contact.FirstName <span> </span> @contact.LastName
+        </a>
+    }    
+</div>
+
+@code {
+    private WeatherForecast[] forecasts;
+
+    private List<Contact> ContactList {get; set;} = new List<Contact>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
+
+            ContactList.Add(new Contact(1, "Imamul", "Hassan"));
+            ContactList.Add(new Contact(2, "Tanjila", "Shamima"));
+            ContactList.Add(new Contact(3, "Ahmed", "Saif"));
+            ContactList.Add(new Contact(4, "Shahoriar", "Nahid"));
+            ContactList.Add(new Contact(5, "Jafor", "Iqbal"));
+            ContactList.Add(new Contact(6, "Shanta", "Dey"));
+    }
+
+}

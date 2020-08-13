@@ -1,0 +1,9 @@
+F:\Website Works\Blazor\BlazingChat\Shared\bin\Debug\netstandard2.1\BlazingChat.Shared.deps.json
+F:\Website Works\Blazor\BlazingChat\Shared\bin\Debug\netstandard2.1\BlazingChat.Shared.dll
+F:\Website Works\Blazor\BlazingChat\Shared\bin\Debug\netstandard2.1\BlazingChat.Shared.pdb
+F:\Website Works\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.csprojAssemblyReference.cache
+F:\Website Works\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.AssemblyInfoInputs.cache
+F:\Website Works\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.AssemblyInfo.cs
+F:\Website Works\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.csproj.CoreCompileInputs.cache
+F:\Website Works\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.dll
+F:\Website Works\Blazor\BlazingChat\Shared\obj\Debug\netstandard2.1\BlazingChat.Shared.pdb
